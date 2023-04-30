@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noise</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-rNvNf1XfbA7cJ8ofrGQipjGxN/5wFzz8MzWZNgvF/iuX9ZOXc45rJtW2Twv89A26tKyw+e+z8kYjrJ5qzD5wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+  </head>
+
+
+  <body id="bd" style="overflow-x:hidden;">
+    <!-- Nav Section -->
+    <nav class="container-fluid bg-dark fixed-top">
+      <div class="navparent p-2">
+        <div class="menu-icon d-lg-none">
+          <img src="https://cdn.shopify.com/s/files/1/0997/6284/files/Vector_93beeecd-b980-4c33-b2c8-3c41b67a39ef.png?v=1660117588" alt="Menu-icon" id="menus">
+          <img src="//cdn.shopify.com/s/files/1/0997/6284/t/1522/assets/close-icon-white-react.svg?v=82956483883518439201673360284" alt="Menu-close-icon" class="d-none" id="bn">
+          <!-- <button type="button" id="bn" class="btn-close  btn-close-white d-none" aria-label="Close"></button> -->
+        </div>
+        <div class="logo text-center">
+          <a href="https://www.gonoise.com" class="navbar-brand"
+            ><img itemprop="logo" src="//cdn.shopify.com/s/files/1/0997/6284/files/Frame_5cedad94-02ea-41c0-8358-07c2b789f67e.png?v=1634232985" alt="Noise"></a>
+        </div>
+        <div class="itemm d-none d-lg-block" id="ite" style="width:100vw;">
+          <ul class="nav-list"  
+           id="collapseExample">
+            <li class="lis ist d-none d-lg-block"><a class="nav-link" href="https://www.gonoise.com" id="PRO">Products<span class="d-lg-none" style="color:black;display:inline;float:right;" data-bs-toggle="collapse" data-bs-target="#containing">&darr;</span></a></li>
+            <li class="lis d-lg-none"><a class="nav-link" data-bs-toggle="collapse" href="#containing">Products<span class="d-lg-none" style="color:black;display:inline;float:right;" data-bs-toggle="collapse" data-bs-target="#containing">&darr;</span></a>
+            <div class="contains collapse" id="containing">
+              <div class="row text-center">
+                <div class="images text-center">
+                  <div class="smart" style="background-color: #f5f5f5;">
+                    <h3 style="font-weight: bold;font-size:10px;padding-top:1em;">SMART WATCHES</h3>
+                  <a href="https://www.gono"><img src="//cdn.shopify.com/s/files/1/0997/6284/files/nav-noise-colorfit-icon-2-smartwatch.png?v=6667627680202579085" alt="Icon 2" width="30" height="30"></a>
+                  <p>Icon 2</p>
+                  
+                  <a href="https://www.gonoise.com"><img src="//cdn.shopify.com/s/files/1/0997/6284/files/nav-noisefit-evolve-3-smartwatch.png?v=12866989403848333376" alt="Evolve 3" width="30" height="30"></a>
+                  <p>Evolve 3</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row text-center">
+                <div class="images text-center">
+                  <div class="smart" style="background-color: #0086ff1a;">
+                  <h3 style="font-weight: bold;font-size:10px;padding-top:1em;">WIRELESS EARBUDS</h3>
+                  <a href="https://www.gono"><img src="//cdn.shopify.com/s/files/1/0997/6284/files/nav-noise-buds-vs202-truly-wireless-bt-earbuds.png?v=10307571259095238178" alt="VS202" width="30" height="30"></a>
+                  <p>VS202</p>
+                  
+                  <a href="https://www.gonoise.com"><img src="//cdn.shopify.com/s/files/1/0997/6284/files/nav-noise-buds-vs202-truly-wireless-bt-earbuds.png?v=10307571259095238178" width="30" height="30" alt="VS202"></a>
+                  <p>VS104</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="lis d-none d-lg-block"><a class="nav-link labs" href="https://www.gonoise.com" id="lab">Noise Labs<span class="d-lg-none" style="color:black;display:inline;float:right;" data-bs-toggle="collapse"data-bs-target="#littelInfo">&darr;</span></a>
+            </li>
+            <li class="lis d-lg-none"><a class="nav-link" style="cursor:pointer;" data-bs-toggle="collapse"data-bs-target="#littelInfo">Noise Labs
+            <span class="d-lg-none" style="color:black;display:inline;float:right;" data-bs-toggle="collapse"data-bs-target="#littelInfo">&darr;</span></a>
+              <div class="collapse text-center" id="littelInfo">
+                <div class="link">
+                  <a href="https://www.gonoise.com" style="text-decoration:none;color:black;">PRODUCTS</a>
+                </div>
+                <ul class="text-center">
+                  <li>
+                    <a href="https://www.gonoise.com">
+                    <img src="assets/headphone.webp" alt="" height="40" width="40"></a>
+                    <p style="color:black">Intellibuds</p>
+                  </li>
+                  <li>
+                    <a href="https://www.gonoise.com">
+                    <img src="assets/specs.avif" alt="" height="40" width="40">
+                    </a>
+                    <p style="color:black">Smart Eye Wear</p>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="lis"><a class="nav-link" href="https://www.gonoise.com" >Support</a></li>
+            <li class="lis"><a class="nav-link" href="https://www.gonoise.com" >Stories</a></li>
+            <li class="nav-item lis d-md-none">
+              <a class="nav-link" href="https://www.gonoise.com"  >Register Warranty</a>
+            </li>
+            <li class="nav-item lis d-md-none">
+              <a class="nav-link" href="https://www.gonoise.com">Download Your Invoice</a>
+            </li>
+            <li class="nav-item d-md-none lis">
+              <a class="nav-link" href="https://www.gonoise.com">Sign up</a>
+            </li>
+            <li class="nav-item d-md-none lis">
+              <a class="nav-link" href="https://www.gonoise.com">Log in</a>
+            </li>
+            <li class="nav-item lis d-md-none mt-5 p-3" style="text-align:left;border:0">Download our app
+              <a class="nav-link" href="https://www.Playstore.com"><img src="https://cdn.shopify.com/s/files/1/0997/6284/files/image_4_30x.png?v=1663060865" data-sizes="auto" sizes="137px" class="undefined lazyautosizes ls-is-cached lazyloaded" alt="Noise google Play" loading="lazy" data-srcset=" https://cdn.shopify.com/s/files/1/0997/6284/files/image_4_180x.png?v=1663060865 180w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_4_360x.png?v=1663060865 360w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_4_480x.png?v=1663060865 480w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_4_765x.png?v=1663060865 765w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_4_900x.png?v=1663060865 900w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_4_1000x.png?v=1663060865 1000w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_4_1200x.png?v=1663060865 1200w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_4_1500x.png?v=1663060865 1500w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_4_1900x.png?v=1663060865 1900w," srcset=" https://cdn.shopify.com/s/files/1/0997/6284/files/image_4_180x.png?v=1663060865 180w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_4_360x.png?v=1663060865 360w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_4_480x.png?v=1663060865 480w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_4_765x.png?v=1663060865 765w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_4_900x.png?v=1663060865 900w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_4_1000x.png?v=1663060865 1000w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_4_1200x.png?v=1663060865 1200w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_4_1500x.png?v=1663060865 1500w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_4_1900x.png?v=1663060865 1900w,">
+              <img src="https://cdn.shopify.com/s/files/1/0997/6284/files/image_5_2294cc29-97df-4f98-8878-fb844fabec11_30x.png?v=1663060865" data-sizes="auto" sizes="137px" class="undefined lazyautosizes ls-is-cached lazyloaded" alt="Noise App Store" loading="lazy" data-srcset=" https://cdn.shopify.com/s/files/1/0997/6284/files/image_5_2294cc29-97df-4f98-8878-fb844fabec11_180x.png?v=1663060865 180w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_5_2294cc29-97df-4f98-8878-fb844fabec11_360x.png?v=1663060865 360w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_5_2294cc29-97df-4f98-8878-fb844fabec11_480x.png?v=1663060865 480w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_5_2294cc29-97df-4f98-8878-fb844fabec11_765x.png?v=1663060865 765w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_5_2294cc29-97df-4f98-8878-fb844fabec11_900x.png?v=1663060865 900w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_5_2294cc29-97df-4f98-8878-fb844fabec11_1000x.png?v=1663060865 1000w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_5_2294cc29-97df-4f98-8878-fb844fabec11_1200x.png?v=1663060865 1200w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_5_2294cc29-97df-4f98-8878-fb844fabec11_1500x.png?v=1663060865 1500w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_5_2294cc29-97df-4f98-8878-fb844fabec11_1900x.png?v=1663060865 1900w," srcset=" https://cdn.shopify.com/s/files/1/0997/6284/files/image_5_2294cc29-97df-4f98-8878-fb844fabec11_180x.png?v=1663060865 180w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_5_2294cc29-97df-4f98-8878-fb844fabec11_360x.png?v=1663060865 360w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_5_2294cc29-97df-4f98-8878-fb844fabec11_480x.png?v=1663060865 480w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_5_2294cc29-97df-4f98-8878-fb844fabec11_765x.png?v=1663060865 765w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_5_2294cc29-97df-4f98-8878-fb844fabec11_900x.png?v=1663060865 900w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_5_2294cc29-97df-4f98-8878-fb844fabec11_1000x.png?v=1663060865 1000w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_5_2294cc29-97df-4f98-8878-fb844fabec11_1200x.png?v=1663060865 1200w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_5_2294cc29-97df-4f98-8878-fb844fabec11_1500x.png?v=1663060865 1500w, https://cdn.shopify.com/s/files/1/0997/6284/files/image_5_2294cc29-97df-4f98-8878-fb844fabec11_1900x.png?v=1663060865 1900w,"></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="search-cart">
+          <div class="search">
+            <img src="//cdn.shopify.com/s/files/1/0997/6284/t/1522/assets/search-icon.svg?v=133283639673881362841673360284"alt="">
+          </div>
+          <div class="cart">
+            <img class="icon-img" src="https://cdn.shopify.com/s/files/1/0997/6284/files/cart-bag-new.svg?v=5749620504844230698" alt="cart">
+          </div>
+          <div class="profile" id="prof" style="visibility:hidden;cursor:pointer">
+            <img class="icon-img" src="//cdn.shopify.com/s/files/1/0997/6284/t/1522/assets/account-icon.svg?v=40610059353920805021673360284" alt="account">
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- End Of Navigation Section -->
+
+    <!-- Start Of Additional Section -->
+
+    <div class="contains d-none" id="containse">
+      <div class="row text-center">
+        <div class="images text-center">
+          <div class="smart" style="background-color: #f5f5f5;">
+            <h3 style="font-weight: bold;font-size:10px;padding-top:1em;">SMART WATCHES</h3>
+          <a href="https://www.gono"><img src="//cdn.shopify.com/s/files/1/0997/6284/files/nav-noise-colorfit-icon-2-smartwatch.png?v=6667627680202579085" alt="Icon 2" width="30" height="30"></a>
+          <p>Icon 2</p>
+          
+          <a href="https://www.gonoise.com"><img src="//cdn.shopify.com/s/files/1/0997/6284/files/nav-noisefit-evolve-3-smartwatch.png?v=12866989403848333376" alt="Evolve 3" width="30" height="30"></a>
+          <p>Evolve 3</p>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="images text-center">
+          <div class="smart" style="background-color: #0086ff1a;">
+          <h3 style="font-weight: bold;font-size:10px;padding-top:1em;">WIRELESS EARBUDS</h3>
+          <a href="https://www.gono"><img src="//cdn.shopify.com/s/files/1/0997/6284/files/nav-noise-buds-vs202-truly-wireless-bt-earbuds.png?v=10307571259095238178" alt="VS202" width="30" height="30"></a>
+          <p>VS202</p>
+          
+          <a href="https://www.gonoise.com"><img src="//cdn.shopify.com/s/files/1/0997/6284/files/nav-noise-buds-vs202-truly-wireless-bt-earbuds.png?v=10307571259095238178" width="30" height="30" alt="VS202"></a>
+          <p>VS104</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="text-center pro d-none" id="littelIn">
+      <!-- <div class="link text-center">
+        <a href="https://www.gonoise.com" style="text-decoration:none;color:black;">PRODUCTS</a>
+      </div> -->
+      <ul class="text-center d-inline">
+        <li>
+          <a href="https://www.gonoise.com">
+          <img src="assets/headphone.webp" alt="" height="40" width="40"></a>
+          <p style="color:black">Intellibuds</p>
+        </li>
+        <li>
+          <a href="https://www.gonoise.com">
+          <img src="assets/specs.avif" alt="" height="40" width="40">
+          </a>
+          <p style="color:black">Smart Eye Wear</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="profile-related d-none" id="prof-related">
+      <div class="close-button-wrapper"><span class="close m-3" id="closes" style="cursor:pointer;float:right;"><img src="//cdn.shopify.com/s/files/1/0997/6284/t/1522/assets/close-icon-react.svg?v=31639256006369198951673360284" alt="close notify"></span></div>
+      <h1 class="main-heading " style="border-top:1px solid black;margin-top:2em;font-weight: bold;font-size:2em;">Hello Noisemaker!</h1>
+      <div class="tabs__phone selectedTab d-flex justify-content-around" style="border-bottom:1px solid black;"><span class="phone-tab__heading">Phone Number</span>
+        <span class="email-tab__heading">Email</span></div>
+        <div class="login-input-wrapper mt-5" ><input type="text" name="phone" class="login-input phone-input p-2" maxlength="10" value="" placeholder="Phone Number"style="width:100%;"></div>
+        <button id="req-otp" class="buttons request-otp mt-5" disabled="" style="border-radius:12px;margin-left:2em;background: white;border:1px solid black;">Request OTP</button>
+        <div class="login-button-wrapper text-center"
+        style=""><hr style="margin-top:40em;"><button class="buttons login-btn" style="border-radius:12px;margin-left:2em;background: rgb(102, 98, 98);color:white;margin-top:1px solid black;width:6em;" disabled="">log in</button><p class="sign-up-link">Not a Noisemaker yet? <a href="/account/register"><span>Sign up</span></a></p></div>
+    </div>
+
+    <!-- End Of Additional Section -->
+
+
+    <!-- Start Of Main Section -->
+
+    <div class="main">
+      <div class="row">
+        <div class="banner img-fluid d-md-none">
+        <img style="width:100%;margin-top:2em;" src="//cdn.shopify.com/s/files/1/0997/6284/files/M1_1122c592-2596-4733-baa7-9c52489b0c26_30x.png?v=1678105225" data-srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/M1_1122c592-2596-4733-baa7-9c52489b0c26_180x.png?v=1678105225 180w, //cdn.shopify.com/s/files/1/0997/6284/files/M1_1122c592-2596-4733-baa7-9c52489b0c26_360x.png?v=1678105225 360w, //cdn.shopify.com/s/files/1/0997/6284/files/M1_1122c592-2596-4733-baa7-9c52489b0c26_480x.png?v=1678105225 480w, //cdn.shopify.com/s/files/1/0997/6284/files/M1_1122c592-2596-4733-baa7-9c52489b0c26_765x.png?v=1678105225 765w, //cdn.shopify.com/s/files/1/0997/6284/files/M1_1122c592-2596-4733-baa7-9c52489b0c26_900x.png?v=1678105225 900w, //cdn.shopify.com/s/files/1/0997/6284/files/M1_1122c592-2596-4733-baa7-9c52489b0c26_1000x.png?v=1678105225 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/M1_1122c592-2596-4733-baa7-9c52489b0c26_1200x.png?v=1678105225 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/M1_1122c592-2596-4733-baa7-9c52489b0c26_1500x.png?v=1678105225 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/M1_1122c592-2596-4733-baa7-9c52489b0c26_1900x.png?v=1678105225 1900w," data-sizes="auto" class="undefined lazyautosizes lazyloaded" alt="noise nerve bt neckband earphones with mic"  srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/M1_1122c592-2596-4733-baa7-9c52489b0c26_180x.png?v=1678105225 180w, //cdn.shopify.com/s/files/1/0997/6284/files/M1_1122c592-2596-4733-baa7-9c52489b0c26_360x.png?v=1678105225 360w, //cdn.shopify.com/s/files/1/0997/6284/files/M1_1122c592-2596-4733-baa7-9c52489b0c26_480x.png?v=1678105225 480w, //cdn.shopify.com/s/files/1/0997/6284/files/M1_1122c592-2596-4733-baa7-9c52489b0c26_765x.png?v=1678105225 765w, //cdn.shopify.com/s/files/1/0997/6284/files/M1_1122c592-2596-4733-baa7-9c52489b0c26_900x.png?v=1678105225 900w, //cdn.shopify.com/s/files/1/0997/6284/files/M1_1122c592-2596-4733-baa7-9c52489b0c26_1000x.png?v=1678105225 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/M1_1122c592-2596-4733-baa7-9c52489b0c26_1200x.png?v=1678105225 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/M1_1122c592-2596-4733-baa7-9c52489b0c26_1500x.png?v=1678105225 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/M1_1122c592-2596-4733-baa7-9c52489b0c26_1900x.png?v=1678105225 1900w,">
+      </div>
+      <div class="imgCan img-fluid d-none d-md-block">
+        <img  style="width:100%;margin-top:2em;" src="//cdn.shopify.com/s/files/1/0997/6284/files/D1_1eaf7c4b-37f4-4e4e-b18a-81232d4975b3_30x.png?v=1678105225" data-srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/D1_1eaf7c4b-37f4-4e4e-b18a-81232d4975b3_180x.png?v=1678105225 180w, //cdn.shopify.com/s/files/1/0997/6284/files/D1_1eaf7c4b-37f4-4e4e-b18a-81232d4975b3_360x.png?v=1678105225 360w, //cdn.shopify.com/s/files/1/0997/6284/files/D1_1eaf7c4b-37f4-4e4e-b18a-81232d4975b3_480x.png?v=1678105225 480w, //cdn.shopify.com/s/files/1/0997/6284/files/D1_1eaf7c4b-37f4-4e4e-b18a-81232d4975b3_765x.png?v=1678105225 765w, //cdn.shopify.com/s/files/1/0997/6284/files/D1_1eaf7c4b-37f4-4e4e-b18a-81232d4975b3_900x.png?v=1678105225 900w, //cdn.shopify.com/s/files/1/0997/6284/files/D1_1eaf7c4b-37f4-4e4e-b18a-81232d4975b3_1000x.png?v=1678105225 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/D1_1eaf7c4b-37f4-4e4e-b18a-81232d4975b3_1200x.png?v=1678105225 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/D1_1eaf7c4b-37f4-4e4e-b18a-81232d4975b3_1500x.png?v=1678105225 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/D1_1eaf7c4b-37f4-4e4e-b18a-81232d4975b3_1900x.png?v=1678105225 1900w," data-sizes="auto" class="undefined lazyautosizes lazyloaded" alt="noise nerve bt neckband earphones with mic"  srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/D1_1eaf7c4b-37f4-4e4e-b18a-81232d4975b3_180x.png?v=1678105225 180w, //cdn.shopify.com/s/files/1/0997/6284/files/D1_1eaf7c4b-37f4-4e4e-b18a-81232d4975b3_360x.png?v=1678105225 360w, //cdn.shopify.com/s/files/1/0997/6284/files/D1_1eaf7c4b-37f4-4e4e-b18a-81232d4975b3_480x.png?v=1678105225 480w, //cdn.shopify.com/s/files/1/0997/6284/files/D1_1eaf7c4b-37f4-4e4e-b18a-81232d4975b3_765x.png?v=1678105225 765w, //cdn.shopify.com/s/files/1/0997/6284/files/D1_1eaf7c4b-37f4-4e4e-b18a-81232d4975b3_900x.png?v=1678105225 900w, //cdn.shopify.com/s/files/1/0997/6284/files/D1_1eaf7c4b-37f4-4e4e-b18a-81232d4975b3_1000x.png?v=1678105225 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/D1_1eaf7c4b-37f4-4e4e-b18a-81232d4975b3_1200x.png?v=1678105225 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/D1_1eaf7c4b-37f4-4e4e-b18a-81232d4975b3_1500x.png?v=1678105225 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/D1_1eaf7c4b-37f4-4e4e-b18a-81232d4975b3_1900x.png?v=1678105225 1900w,">
+      </div>
+      </div>
+      <div class="arrangements d-md-inline-flex flex-row">
+      <div class="row">
+      <div class="sliders">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <!-- <div class="carousel-indicators ">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div> -->
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_2_9b036c59-1dd0-4729-adca-98ebcf2ce153_30x.png?v=1655378792" data-sizes="auto"  class="d-flex undefined lazyautosizes lazyloaded" alt="noise nerve bt neckband earphones with mic" loading="lazy" data-srcset=" https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_2_9b036c59-1dd0-4729-adca-98ebcf2ce153_180x.png?v=1655378792 180w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_2_9b036c59-1dd0-4729-adca-98ebcf2ce153_360x.png?v=1655378792 360w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_2_9b036c59-1dd0-4729-adca-98ebcf2ce153_480x.png?v=1655378792 480w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_2_9b036c59-1dd0-4729-adca-98ebcf2ce153_765x.png?v=1655378792 765w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_2_9b036c59-1dd0-4729-adca-98ebcf2ce153_900x.png?v=1655378792 900w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_2_9b036c59-1dd0-4729-adca-98ebcf2ce153_1000x.png?v=1655378792 1000w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_2_9b036c59-1dd0-4729-adca-98ebcf2ce153_1200x.png?v=1655378792 1200w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_2_9b036c59-1dd0-4729-adca-98ebcf2ce153_1500x.png?v=1655378792 1500w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_2_9b036c59-1dd0-4729-adca-98ebcf2ce153_1900x.png?v=1655378792 1900w," srcset=" https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_2_9b036c59-1dd0-4729-adca-98ebcf2ce153_180x.png?v=1655378792 180w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_2_9b036c59-1dd0-4729-adca-98ebcf2ce153_360x.png?v=1655378792 360w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_2_9b036c59-1dd0-4729-adca-98ebcf2ce153_480x.png?v=1655378792 480w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_2_9b036c59-1dd0-4729-adca-98ebcf2ce153_765x.png?v=1655378792 765w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_2_9b036c59-1dd0-4729-adca-98ebcf2ce153_900x.png?v=1655378792 900w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_2_9b036c59-1dd0-4729-adca-98ebcf2ce153_1000x.png?v=1655378792 1000w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_2_9b036c59-1dd0-4729-adca-98ebcf2ce153_1200x.png?v=1655378792 1200w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_2_9b036c59-1dd0-4729-adca-98ebcf2ce153_1500x.png?v=1655378792 1500w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_2_9b036c59-1dd0-4729-adca-98ebcf2ce153_1900x.png?v=1655378792 1900w,">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_1_02e1333a-204c-4e50-983e-99238b70f5d0_30x.png?v=1655378790" data-sizes="auto"
+                class=" d-flex undefined lazyautosizes lazyloaded" alt="noise nerve bt neckband earphones with mic" loading="lazy" data-srcset=" https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_1_02e1333a-204c-4e50-983e-99238b70f5d0_180x.png?v=1655378790 180w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_1_02e1333a-204c-4e50-983e-99238b70f5d0_360x.png?v=1655378790 360w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_1_02e1333a-204c-4e50-983e-99238b70f5d0_480x.png?v=1655378790 480w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_1_02e1333a-204c-4e50-983e-99238b70f5d0_765x.png?v=1655378790 765w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_1_02e1333a-204c-4e50-983e-99238b70f5d0_900x.png?v=1655378790 900w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_1_02e1333a-204c-4e50-983e-99238b70f5d0_1000x.png?v=1655378790 1000w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_1_02e1333a-204c-4e50-983e-99238b70f5d0_1200x.png?v=1655378790 1200w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_1_02e1333a-204c-4e50-983e-99238b70f5d0_1500x.png?v=1655378790 1500w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_1_02e1333a-204c-4e50-983e-99238b70f5d0_1900x.png?v=1655378790 1900w," srcset=" https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_1_02e1333a-204c-4e50-983e-99238b70f5d0_180x.png?v=1655378790 180w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_1_02e1333a-204c-4e50-983e-99238b70f5d0_360x.png?v=1655378790 360w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_1_02e1333a-204c-4e50-983e-99238b70f5d0_480x.png?v=1655378790 480w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_1_02e1333a-204c-4e50-983e-99238b70f5d0_765x.png?v=1655378790 765w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_1_02e1333a-204c-4e50-983e-99238b70f5d0_900x.png?v=1655378790 900w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_1_02e1333a-204c-4e50-983e-99238b70f5d0_1000x.png?v=1655378790 1000w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_1_02e1333a-204c-4e50-983e-99238b70f5d0_1200x.png?v=1655378790 1200w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_1_02e1333a-204c-4e50-983e-99238b70f5d0_1500x.png?v=1655378790 1500w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_1_02e1333a-204c-4e50-983e-99238b70f5d0_1900x.png?v=1655378790 1900w,">
+              
+            </div>
+            <div class="carousel-item">
+              <img src="https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_3_1cd9f448-5f03-4b0f-8bd6-36a94469ef9a_30x.png?v=1655378794" data-sizes="auto" 
+               class="d-flex undefined lazyautosizes ls-is-cached lazyloaded" alt="noise nerve bt neckband earphones with mic" loading="lazy" data-srcset=" https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_3_1cd9f448-5f03-4b0f-8bd6-36a94469ef9a_180x.png?v=1655378794 180w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_3_1cd9f448-5f03-4b0f-8bd6-36a94469ef9a_360x.png?v=1655378794 360w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_3_1cd9f448-5f03-4b0f-8bd6-36a94469ef9a_480x.png?v=1655378794 480w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_3_1cd9f448-5f03-4b0f-8bd6-36a94469ef9a_765x.png?v=1655378794 765w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_3_1cd9f448-5f03-4b0f-8bd6-36a94469ef9a_900x.png?v=1655378794 900w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_3_1cd9f448-5f03-4b0f-8bd6-36a94469ef9a_1000x.png?v=1655378794 1000w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_3_1cd9f448-5f03-4b0f-8bd6-36a94469ef9a_1200x.png?v=1655378794 1200w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_3_1cd9f448-5f03-4b0f-8bd6-36a94469ef9a_1500x.png?v=1655378794 1500w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_3_1cd9f448-5f03-4b0f-8bd6-36a94469ef9a_1900x.png?v=1655378794 1900w," srcset=" https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_3_1cd9f448-5f03-4b0f-8bd6-36a94469ef9a_180x.png?v=1655378794 180w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_3_1cd9f448-5f03-4b0f-8bd6-36a94469ef9a_360x.png?v=1655378794 360w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_3_1cd9f448-5f03-4b0f-8bd6-36a94469ef9a_480x.png?v=1655378794 480w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_3_1cd9f448-5f03-4b0f-8bd6-36a94469ef9a_765x.png?v=1655378794 765w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_3_1cd9f448-5f03-4b0f-8bd6-36a94469ef9a_900x.png?v=1655378794 900w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_3_1cd9f448-5f03-4b0f-8bd6-36a94469ef9a_1000x.png?v=1655378794 1000w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_3_1cd9f448-5f03-4b0f-8bd6-36a94469ef9a_1200x.png?v=1655378794 1200w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_3_1cd9f448-5f03-4b0f-8bd6-36a94469ef9a_1500x.png?v=1655378794 1500w, https://cdn.shopify.com/s/files/1/0997/6284/products/Blue_3_1cd9f448-5f03-4b0f-8bd6-36a94469ef9a_1900x.png?v=1655378794 1900w,">
+              
+            </div>
+          </div>
+          <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button> -->
+          <!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button> -->
+        </div>
+      </div>
+      </div>
+      <div class="row">
+        <div class="headings d-flex justify-content-between">
+          <p class="text-muted">Noise</p>
+          <p style="" id="bv">BEST VALUE</p>
+        </div>
+        <h4 id="neck" style="">Nerve Neckband</h4>
+        <div class="prices d-flex justify-content-between" style="">
+          <div>
+          <p style="">₹999 <strike><span class="text-muted" style="font-size:13px;">₹2,499</span></strike></p>
+          </div>
+          <div class="d-flex info"style="">
+            <img src="https://cdn.shopify.com/s/files/1/0997/6284/files/Vector_a41dc07f-08bc-44de-9a68-5ec27113fbd9.png?v=1673959333" alt="star-icon"height="20">
+            <p>4.7<span class="text-muted" >(65)</span></p>
+        </div>
+          </div>
+          <p style="" id="para">Inclusive of all taxes</p>
+          <div class="text-center">
+          <button style="border:1px solid black;background:black;border-radius: 20px;width:30%;color:white;padding:6px;">
+            Buy Now
+          </button>
+      </div>
+        
+      </div>
+      </div>
+
+
+      <div class="row">
+        <div class="features d-lg-none" style="margin-top:1em;">
+          <img style="width:100%;" src="//cdn.shopify.com/s/files/1/0997/6284/files/M2_096836df-6325-4fb6-960f-4f3305254ba7_30x.png?v=1678105297" data-srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/M2_096836df-6325-4fb6-960f-4f3305254ba7_180x.png?v=1678105297 180w, //cdn.shopify.com/s/files/1/0997/6284/files/M2_096836df-6325-4fb6-960f-4f3305254ba7_360x.png?v=1678105297 360w, //cdn.shopify.com/s/files/1/0997/6284/files/M2_096836df-6325-4fb6-960f-4f3305254ba7_480x.png?v=1678105297 480w, //cdn.shopify.com/s/files/1/0997/6284/files/M2_096836df-6325-4fb6-960f-4f3305254ba7_765x.png?v=1678105297 765w, //cdn.shopify.com/s/files/1/0997/6284/files/M2_096836df-6325-4fb6-960f-4f3305254ba7_900x.png?v=1678105297 900w, //cdn.shopify.com/s/files/1/0997/6284/files/M2_096836df-6325-4fb6-960f-4f3305254ba7_1000x.png?v=1678105297 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/M2_096836df-6325-4fb6-960f-4f3305254ba7_1200x.png?v=1678105297 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/M2_096836df-6325-4fb6-960f-4f3305254ba7_1500x.png?v=1678105297 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/M2_096836df-6325-4fb6-960f-4f3305254ba7_1900x.png?v=1678105297 1900w," data-sizes="auto" class="undefined lazyautosizes lazyloaded" alt="noise nerve bt neckband earphones with mic" sizes="386px" srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/M2_096836df-6325-4fb6-960f-4f3305254ba7_180x.png?v=1678105297 180w, //cdn.shopify.com/s/files/1/0997/6284/files/M2_096836df-6325-4fb6-960f-4f3305254ba7_360x.png?v=1678105297 360w, //cdn.shopify.com/s/files/1/0997/6284/files/M2_096836df-6325-4fb6-960f-4f3305254ba7_480x.png?v=1678105297 480w, //cdn.shopify.com/s/files/1/0997/6284/files/M2_096836df-6325-4fb6-960f-4f3305254ba7_765x.png?v=1678105297 765w, //cdn.shopify.com/s/files/1/0997/6284/files/M2_096836df-6325-4fb6-960f-4f3305254ba7_900x.png?v=1678105297 900w, //cdn.shopify.com/s/files/1/0997/6284/files/M2_096836df-6325-4fb6-960f-4f3305254ba7_1000x.png?v=1678105297 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/M2_096836df-6325-4fb6-960f-4f3305254ba7_1200x.png?v=1678105297 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/M2_096836df-6325-4fb6-960f-4f3305254ba7_1500x.png?v=1678105297 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/M2_096836df-6325-4fb6-960f-4f3305254ba7_1900x.png?v=1678105297 1900w,">
+        </div>
+        <div class="features d-none d-lg-block" style="margin-top:1em;">
+          <img style="width: 100%;" src="//cdn.shopify.com/s/files/1/0997/6284/files/D2_6fbc167c-a784-44df-b0ee-b0c0f5d75a05_30x.png?v=1678105292" data-srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/D2_6fbc167c-a784-44df-b0ee-b0c0f5d75a05_180x.png?v=1678105292 180w, //cdn.shopify.com/s/files/1/0997/6284/files/D2_6fbc167c-a784-44df-b0ee-b0c0f5d75a05_360x.png?v=1678105292 360w, //cdn.shopify.com/s/files/1/0997/6284/files/D2_6fbc167c-a784-44df-b0ee-b0c0f5d75a05_480x.png?v=1678105292 480w, //cdn.shopify.com/s/files/1/0997/6284/files/D2_6fbc167c-a784-44df-b0ee-b0c0f5d75a05_765x.png?v=1678105292 765w, //cdn.shopify.com/s/files/1/0997/6284/files/D2_6fbc167c-a784-44df-b0ee-b0c0f5d75a05_900x.png?v=1678105292 900w, //cdn.shopify.com/s/files/1/0997/6284/files/D2_6fbc167c-a784-44df-b0ee-b0c0f5d75a05_1000x.png?v=1678105292 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/D2_6fbc167c-a784-44df-b0ee-b0c0f5d75a05_1200x.png?v=1678105292 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/D2_6fbc167c-a784-44df-b0ee-b0c0f5d75a05_1500x.png?v=1678105292 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/D2_6fbc167c-a784-44df-b0ee-b0c0f5d75a05_1900x.png?v=1678105292 1900w," data-sizes="auto" class="undefined lazyautosizes ls-is-cached lazyloaded" alt="noise nerve bt neckband earphones with mic"  srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/D2_6fbc167c-a784-44df-b0ee-b0c0f5d75a05_180x.png?v=1678105292 180w, //cdn.shopify.com/s/files/1/0997/6284/files/D2_6fbc167c-a784-44df-b0ee-b0c0f5d75a05_360x.png?v=1678105292 360w, //cdn.shopify.com/s/files/1/0997/6284/files/D2_6fbc167c-a784-44df-b0ee-b0c0f5d75a05_480x.png?v=1678105292 480w, //cdn.shopify.com/s/files/1/0997/6284/files/D2_6fbc167c-a784-44df-b0ee-b0c0f5d75a05_765x.png?v=1678105292 765w, //cdn.shopify.com/s/files/1/0997/6284/files/D2_6fbc167c-a784-44df-b0ee-b0c0f5d75a05_900x.png?v=1678105292 900w, //cdn.shopify.com/s/files/1/0997/6284/files/D2_6fbc167c-a784-44df-b0ee-b0c0f5d75a05_1000x.png?v=1678105292 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/D2_6fbc167c-a784-44df-b0ee-b0c0f5d75a05_1200x.png?v=1678105292 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/D2_6fbc167c-a784-44df-b0ee-b0c0f5d75a05_1500x.png?v=1678105292 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/D2_6fbc167c-a784-44df-b0ee-b0c0f5d75a05_1900x.png?v=1678105292 1900w,">
+        </div>
+        <div class="features d-lg-none" style="margin-top:0em;">
+          <img style="width:100%;" src="//cdn.shopify.com/s/files/1/0997/6284/files/M3_45149fd9-d911-475b-8b52-7cd8617aa5b4_30x.png?v=1678105331" data-srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/M3_45149fd9-d911-475b-8b52-7cd8617aa5b4_180x.png?v=1678105331 180w, //cdn.shopify.com/s/files/1/0997/6284/files/M3_45149fd9-d911-475b-8b52-7cd8617aa5b4_360x.png?v=1678105331 360w, //cdn.shopify.com/s/files/1/0997/6284/files/M3_45149fd9-d911-475b-8b52-7cd8617aa5b4_480x.png?v=1678105331 480w, //cdn.shopify.com/s/files/1/0997/6284/files/M3_45149fd9-d911-475b-8b52-7cd8617aa5b4_765x.png?v=1678105331 765w, //cdn.shopify.com/s/files/1/0997/6284/files/M3_45149fd9-d911-475b-8b52-7cd8617aa5b4_900x.png?v=1678105331 900w, //cdn.shopify.com/s/files/1/0997/6284/files/M3_45149fd9-d911-475b-8b52-7cd8617aa5b4_1000x.png?v=1678105331 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/M3_45149fd9-d911-475b-8b52-7cd8617aa5b4_1200x.png?v=1678105331 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/M3_45149fd9-d911-475b-8b52-7cd8617aa5b4_1500x.png?v=1678105331 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/M3_45149fd9-d911-475b-8b52-7cd8617aa5b4_1900x.png?v=1678105331 1900w," data-sizes="auto" class="undefined lazyautosizes lazyloaded" alt="noise nerve bt neckband earphones with mic" sizes="700px" srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/M3_45149fd9-d911-475b-8b52-7cd8617aa5b4_180x.png?v=1678105331 180w, //cdn.shopify.com/s/files/1/0997/6284/files/M3_45149fd9-d911-475b-8b52-7cd8617aa5b4_360x.png?v=1678105331 360w, //cdn.shopify.com/s/files/1/0997/6284/files/M3_45149fd9-d911-475b-8b52-7cd8617aa5b4_480x.png?v=1678105331 480w, //cdn.shopify.com/s/files/1/0997/6284/files/M3_45149fd9-d911-475b-8b52-7cd8617aa5b4_765x.png?v=1678105331 765w, //cdn.shopify.com/s/files/1/0997/6284/files/M3_45149fd9-d911-475b-8b52-7cd8617aa5b4_900x.png?v=1678105331 900w, //cdn.shopify.com/s/files/1/0997/6284/files/M3_45149fd9-d911-475b-8b52-7cd8617aa5b4_1000x.png?v=1678105331 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/M3_45149fd9-d911-475b-8b52-7cd8617aa5b4_1200x.png?v=1678105331 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/M3_45149fd9-d911-475b-8b52-7cd8617aa5b4_1500x.png?v=1678105331 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/M3_45149fd9-d911-475b-8b52-7cd8617aa5b4_1900x.png?v=1678105331 1900w,">
+
+        </div>
+        <div class="features d-none d-lg-block">
+          <img style="width:100%;" src="//cdn.shopify.com/s/files/1/0997/6284/files/D3_d5572333-54cf-42cb-9e70-c15604b377bd_30x.png?v=1678105328" data-srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/D3_d5572333-54cf-42cb-9e70-c15604b377bd_180x.png?v=1678105328 180w, //cdn.shopify.com/s/files/1/0997/6284/files/D3_d5572333-54cf-42cb-9e70-c15604b377bd_360x.png?v=1678105328 360w, //cdn.shopify.com/s/files/1/0997/6284/files/D3_d5572333-54cf-42cb-9e70-c15604b377bd_480x.png?v=1678105328 480w, //cdn.shopify.com/s/files/1/0997/6284/files/D3_d5572333-54cf-42cb-9e70-c15604b377bd_765x.png?v=1678105328 765w, //cdn.shopify.com/s/files/1/0997/6284/files/D3_d5572333-54cf-42cb-9e70-c15604b377bd_900x.png?v=1678105328 900w, //cdn.shopify.com/s/files/1/0997/6284/files/D3_d5572333-54cf-42cb-9e70-c15604b377bd_1000x.png?v=1678105328 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/D3_d5572333-54cf-42cb-9e70-c15604b377bd_1200x.png?v=1678105328 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/D3_d5572333-54cf-42cb-9e70-c15604b377bd_1500x.png?v=1678105328 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/D3_d5572333-54cf-42cb-9e70-c15604b377bd_1900x.png?v=1678105328 1900w," data-sizes="auto" class="undefined lazyautosizes lazyloaded" alt="noise nerve bt neckband earphones with mic" sizes="1060px" srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/D3_d5572333-54cf-42cb-9e70-c15604b377bd_180x.png?v=1678105328 180w, //cdn.shopify.com/s/files/1/0997/6284/files/D3_d5572333-54cf-42cb-9e70-c15604b377bd_360x.png?v=1678105328 360w, //cdn.shopify.com/s/files/1/0997/6284/files/D3_d5572333-54cf-42cb-9e70-c15604b377bd_480x.png?v=1678105328 480w, //cdn.shopify.com/s/files/1/0997/6284/files/D3_d5572333-54cf-42cb-9e70-c15604b377bd_765x.png?v=1678105328 765w, //cdn.shopify.com/s/files/1/0997/6284/files/D3_d5572333-54cf-42cb-9e70-c15604b377bd_900x.png?v=1678105328 900w, //cdn.shopify.com/s/files/1/0997/6284/files/D3_d5572333-54cf-42cb-9e70-c15604b377bd_1000x.png?v=1678105328 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/D3_d5572333-54cf-42cb-9e70-c15604b377bd_1200x.png?v=1678105328 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/D3_d5572333-54cf-42cb-9e70-c15604b377bd_1500x.png?v=1678105328 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/D3_d5572333-54cf-42cb-9e70-c15604b377bd_1900x.png?v=1678105328 1900w,">
+        </div>
+        <div class="features d-lg-none">
+          <img style="width:100%;" src="//cdn.shopify.com/s/files/1/0997/6284/files/M5_03c83cc0-d098-4f2f-aaff-bd89fb253698_30x.png?v=1678105431" data-srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/M5_03c83cc0-d098-4f2f-aaff-bd89fb253698_180x.png?v=1678105431 180w, //cdn.shopify.com/s/files/1/0997/6284/files/M5_03c83cc0-d098-4f2f-aaff-bd89fb253698_360x.png?v=1678105431 360w, //cdn.shopify.com/s/files/1/0997/6284/files/M5_03c83cc0-d098-4f2f-aaff-bd89fb253698_480x.png?v=1678105431 480w, //cdn.shopify.com/s/files/1/0997/6284/files/M5_03c83cc0-d098-4f2f-aaff-bd89fb253698_765x.png?v=1678105431 765w, //cdn.shopify.com/s/files/1/0997/6284/files/M5_03c83cc0-d098-4f2f-aaff-bd89fb253698_900x.png?v=1678105431 900w, //cdn.shopify.com/s/files/1/0997/6284/files/M5_03c83cc0-d098-4f2f-aaff-bd89fb253698_1000x.png?v=1678105431 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/M5_03c83cc0-d098-4f2f-aaff-bd89fb253698_1200x.png?v=1678105431 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/M5_03c83cc0-d098-4f2f-aaff-bd89fb253698_1500x.png?v=1678105431 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/M5_03c83cc0-d098-4f2f-aaff-bd89fb253698_1900x.png?v=1678105431 1900w," data-sizes="auto" class="undefined lazyautosizes ls-is-cached lazyloaded" alt="noise nerve bt neckband earphones with mic" sizes="844px" srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/M5_03c83cc0-d098-4f2f-aaff-bd89fb253698_180x.png?v=1678105431 180w, //cdn.shopify.com/s/files/1/0997/6284/files/M5_03c83cc0-d098-4f2f-aaff-bd89fb253698_360x.png?v=1678105431 360w, //cdn.shopify.com/s/files/1/0997/6284/files/M5_03c83cc0-d098-4f2f-aaff-bd89fb253698_480x.png?v=1678105431 480w, //cdn.shopify.com/s/files/1/0997/6284/files/M5_03c83cc0-d098-4f2f-aaff-bd89fb253698_765x.png?v=1678105431 765w, //cdn.shopify.com/s/files/1/0997/6284/files/M5_03c83cc0-d098-4f2f-aaff-bd89fb253698_900x.png?v=1678105431 900w, //cdn.shopify.com/s/files/1/0997/6284/files/M5_03c83cc0-d098-4f2f-aaff-bd89fb253698_1000x.png?v=1678105431 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/M5_03c83cc0-d098-4f2f-aaff-bd89fb253698_1200x.png?v=1678105431 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/M5_03c83cc0-d098-4f2f-aaff-bd89fb253698_1500x.png?v=1678105431 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/M5_03c83cc0-d098-4f2f-aaff-bd89fb253698_1900x.png?v=1678105431 1900w,">
+        </div>
+        <div class="features d-none d-lg-block">
+          <img style="width:100%;" src="//cdn.shopify.com/s/files/1/0997/6284/files/D7_6f46433f-8128-4629-8d42-768cc13a63e2_30x.png?v=1678105488" data-srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/D7_6f46433f-8128-4629-8d42-768cc13a63e2_180x.png?v=1678105488 180w, //cdn.shopify.com/s/files/1/0997/6284/files/D7_6f46433f-8128-4629-8d42-768cc13a63e2_360x.png?v=1678105488 360w, //cdn.shopify.com/s/files/1/0997/6284/files/D7_6f46433f-8128-4629-8d42-768cc13a63e2_480x.png?v=1678105488 480w, //cdn.shopify.com/s/files/1/0997/6284/files/D7_6f46433f-8128-4629-8d42-768cc13a63e2_765x.png?v=1678105488 765w, //cdn.shopify.com/s/files/1/0997/6284/files/D7_6f46433f-8128-4629-8d42-768cc13a63e2_900x.png?v=1678105488 900w, //cdn.shopify.com/s/files/1/0997/6284/files/D7_6f46433f-8128-4629-8d42-768cc13a63e2_1000x.png?v=1678105488 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/D7_6f46433f-8128-4629-8d42-768cc13a63e2_1200x.png?v=1678105488 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/D7_6f46433f-8128-4629-8d42-768cc13a63e2_1500x.png?v=1678105488 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/D7_6f46433f-8128-4629-8d42-768cc13a63e2_1900x.png?v=1678105488 1900w," data-sizes="auto" class="undefined lazyautosizes lazyloaded" alt="noise nerve bt neckband earphones with mic" sizes="1072px" srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/D7_6f46433f-8128-4629-8d42-768cc13a63e2_180x.png?v=1678105488 180w, //cdn.shopify.com/s/files/1/0997/6284/files/D7_6f46433f-8128-4629-8d42-768cc13a63e2_360x.png?v=1678105488 360w, //cdn.shopify.com/s/files/1/0997/6284/files/D7_6f46433f-8128-4629-8d42-768cc13a63e2_480x.png?v=1678105488 480w, //cdn.shopify.com/s/files/1/0997/6284/files/D7_6f46433f-8128-4629-8d42-768cc13a63e2_765x.png?v=1678105488 765w, //cdn.shopify.com/s/files/1/0997/6284/files/D7_6f46433f-8128-4629-8d42-768cc13a63e2_900x.png?v=1678105488 900w, //cdn.shopify.com/s/files/1/0997/6284/files/D7_6f46433f-8128-4629-8d42-768cc13a63e2_1000x.png?v=1678105488 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/D7_6f46433f-8128-4629-8d42-768cc13a63e2_1200x.png?v=1678105488 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/D7_6f46433f-8128-4629-8d42-768cc13a63e2_1500x.png?v=1678105488 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/D7_6f46433f-8128-4629-8d42-768cc13a63e2_1900x.png?v=1678105488 1900w,">
+        </div>
+        <div class="features d-lg-none">
+          <img style="width:100%;" src="//cdn.shopify.com/s/files/1/0997/6284/files/M9_a6fcc88d-c8c5-44a8-9bfd-8273629705f2_30x.png?v=1678105552" data-srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/M9_a6fcc88d-c8c5-44a8-9bfd-8273629705f2_180x.png?v=1678105552 180w, //cdn.shopify.com/s/files/1/0997/6284/files/M9_a6fcc88d-c8c5-44a8-9bfd-8273629705f2_360x.png?v=1678105552 360w, //cdn.shopify.com/s/files/1/0997/6284/files/M9_a6fcc88d-c8c5-44a8-9bfd-8273629705f2_480x.png?v=1678105552 480w, //cdn.shopify.com/s/files/1/0997/6284/files/M9_a6fcc88d-c8c5-44a8-9bfd-8273629705f2_765x.png?v=1678105552 765w, //cdn.shopify.com/s/files/1/0997/6284/files/M9_a6fcc88d-c8c5-44a8-9bfd-8273629705f2_900x.png?v=1678105552 900w, //cdn.shopify.com/s/files/1/0997/6284/files/M9_a6fcc88d-c8c5-44a8-9bfd-8273629705f2_1000x.png?v=1678105552 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/M9_a6fcc88d-c8c5-44a8-9bfd-8273629705f2_1200x.png?v=1678105552 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/M9_a6fcc88d-c8c5-44a8-9bfd-8273629705f2_1500x.png?v=1678105552 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/M9_a6fcc88d-c8c5-44a8-9bfd-8273629705f2_1900x.png?v=1678105552 1900w," data-sizes="auto" class="undefined lazyautosizes lazyloaded" alt="noise nerve bt neckband earphones with mic" sizes="816px" srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/M9_a6fcc88d-c8c5-44a8-9bfd-8273629705f2_180x.png?v=1678105552 180w, //cdn.shopify.com/s/files/1/0997/6284/files/M9_a6fcc88d-c8c5-44a8-9bfd-8273629705f2_360x.png?v=1678105552 360w, //cdn.shopify.com/s/files/1/0997/6284/files/M9_a6fcc88d-c8c5-44a8-9bfd-8273629705f2_480x.png?v=1678105552 480w, //cdn.shopify.com/s/files/1/0997/6284/files/M9_a6fcc88d-c8c5-44a8-9bfd-8273629705f2_765x.png?v=1678105552 765w, //cdn.shopify.com/s/files/1/0997/6284/files/M9_a6fcc88d-c8c5-44a8-9bfd-8273629705f2_900x.png?v=1678105552 900w, //cdn.shopify.com/s/files/1/0997/6284/files/M9_a6fcc88d-c8c5-44a8-9bfd-8273629705f2_1000x.png?v=1678105552 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/M9_a6fcc88d-c8c5-44a8-9bfd-8273629705f2_1200x.png?v=1678105552 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/M9_a6fcc88d-c8c5-44a8-9bfd-8273629705f2_1500x.png?v=1678105552 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/M9_a6fcc88d-c8c5-44a8-9bfd-8273629705f2_1900x.png?v=1678105552 1900w,">
+        </div>
+        <div class="features d-none d-lg-block">
+          <img style="width:100%;" src="//cdn.shopify.com/s/files/1/0997/6284/files/D10_6a5206f7-5798-4a04-9780-7a48d424cbd7_30x.png?v=1678105576" data-srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/D10_6a5206f7-5798-4a04-9780-7a48d424cbd7_180x.png?v=1678105576 180w, //cdn.shopify.com/s/files/1/0997/6284/files/D10_6a5206f7-5798-4a04-9780-7a48d424cbd7_360x.png?v=1678105576 360w, //cdn.shopify.com/s/files/1/0997/6284/files/D10_6a5206f7-5798-4a04-9780-7a48d424cbd7_480x.png?v=1678105576 480w, //cdn.shopify.com/s/files/1/0997/6284/files/D10_6a5206f7-5798-4a04-9780-7a48d424cbd7_765x.png?v=1678105576 765w, //cdn.shopify.com/s/files/1/0997/6284/files/D10_6a5206f7-5798-4a04-9780-7a48d424cbd7_900x.png?v=1678105576 900w, //cdn.shopify.com/s/files/1/0997/6284/files/D10_6a5206f7-5798-4a04-9780-7a48d424cbd7_1000x.png?v=1678105576 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/D10_6a5206f7-5798-4a04-9780-7a48d424cbd7_1200x.png?v=1678105576 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/D10_6a5206f7-5798-4a04-9780-7a48d424cbd7_1500x.png?v=1678105576 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/D10_6a5206f7-5798-4a04-9780-7a48d424cbd7_1900x.png?v=1678105576 1900w," data-sizes="auto" class="undefined lazyautosizes lazyloaded" alt="noise nerve bt neckband earphones with mic" sizes="1076px" srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/D10_6a5206f7-5798-4a04-9780-7a48d424cbd7_180x.png?v=1678105576 180w, //cdn.shopify.com/s/files/1/0997/6284/files/D10_6a5206f7-5798-4a04-9780-7a48d424cbd7_360x.png?v=1678105576 360w, //cdn.shopify.com/s/files/1/0997/6284/files/D10_6a5206f7-5798-4a04-9780-7a48d424cbd7_480x.png?v=1678105576 480w, //cdn.shopify.com/s/files/1/0997/6284/files/D10_6a5206f7-5798-4a04-9780-7a48d424cbd7_765x.png?v=1678105576 765w, //cdn.shopify.com/s/files/1/0997/6284/files/D10_6a5206f7-5798-4a04-9780-7a48d424cbd7_900x.png?v=1678105576 900w, //cdn.shopify.com/s/files/1/0997/6284/files/D10_6a5206f7-5798-4a04-9780-7a48d424cbd7_1000x.png?v=1678105576 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/D10_6a5206f7-5798-4a04-9780-7a48d424cbd7_1200x.png?v=1678105576 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/D10_6a5206f7-5798-4a04-9780-7a48d424cbd7_1500x.png?v=1678105576 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/D10_6a5206f7-5798-4a04-9780-7a48d424cbd7_1900x.png?v=1678105576 1900w,">
+        </div>
+      </div>
+    </div>
+
+    <!-- End Of Main Section -->
+
+    <div class="footer">
+      <div class="smals d-lg-none d-xl-none d-xxl-none">
+      <div class="logo-img">
+        <a href="https://gonoise.com">
+          <img src="//cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_30x.png?v=1639078444" data-sizes="auto" sizes="120px" class="undefined lazyautosizes ls-is-cached lazyloaded" alt="noise-logo" loading="lazy" data-srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_180x.png?v=1639078444 180w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_360x.png?v=1639078444 360w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_480x.png?v=1639078444 480w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_765x.png?v=1639078444 765w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_900x.png?v=1639078444 900w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_1000x.png?v=1639078444 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_1200x.png?v=1639078444 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_1500x.png?v=1639078444 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_1900x.png?v=1639078444 1900w," srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_180x.png?v=1639078444 180w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_360x.png?v=1639078444 360w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_480x.png?v=1639078444 480w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_765x.png?v=1639078444 765w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_900x.png?v=1639078444 900w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_1000x.png?v=1639078444 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_1200x.png?v=1639078444 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_1500x.png?v=1639078444 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_1900x.png?v=1639078444 1900w,">
+        </a>
+      </div>
+      <div class="flex-view-xs">
+        <div class="">
+          <div class="menu-part">
+            <div class="menu">
+              <h3 class="link">
+                Our products
+                  <span class="arrow down d-lg-none" class="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#togle1">&darr;</span>
+              </h3>
+              <div id="togle1" class="navbar-collapse collapse togle">
+                <ul class="submenu">
+                  <li id="footerId0" style=""><a data-react="true" href="https://www.gonoise.com">Smart Watches</a></li><li id="footerId1"><a data-react="true" href="https://www.gonoise.com">Wireless Earphones</a></li><li id="footerId2"><a data-react="true" href="https://www.gonoise.com">Wireless Earbuds</a></li><li id="footerId3"><a data-react="true" href="https://www.gonoise.com">NoiseFit App</a></li><li id="footerId4"><a data-react="true" href="https://www.gonoise.com">Accessories</a></li><li id="footerId5"><a data-react="true" href="https://www.gonoise.com">Noise Gift Card</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="menu">
+              <h3 class="link">
+                For Business
+                  <span class="arrow down d-lg-none" class="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#togle2">&darr;</span>
+              </h3>
+              <div id="togle2" class="navbar-collapse collapse togle">
+                <ul class="submenu">
+                  <li id="footerId0" style=""><a data-react="true" href="https://www.gonoise.com">Corporate Enquiries</a></li><li id="footerId1"><a data-react="true" href="https://www.gonoise.com">Become an affiliate</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="menu">
+              <h3 class="link">
+                Support
+                  <span class="arrow down d-lg-none" class="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#togle3">&darr;</span>
+              </h3>
+              <div id="togle3" class="navbar-collapse collapse togle">
+                <ul class="submenu">
+                  <li id="footerId0" style=""><a data-react="true" href="https://www.gonoise.com">FAQ</a></li><li id="footerId1"><a data-react="true" href="https://www.gonoise.com">Download Your Invoice</a></li><li id="footerId2"><a data-react="true" href="https://www.gonoise.com">Track Your Order</a></li><li id="footerId3"><a data-react="true" href="https://www.gonoise.com">Shipping and Returns</a></li><li id="footerId4"><a data-react="true" href="https://www.gonoise.com">Register Your Warranty</a></li><li id="footerId5"><a data-react="true" href="https://www.gonoise.com">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="menu">
+              <h3 class="link">
+                About Noise
+                  <span class="arrow down d-lg-none" class="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#togle4">&darr;</span>
+              </h3>
+              <div id="togle4" class="navbar-collapse collapse togle">
+                <ul class="submenu">
+                  <li id="footerId0" style=""><a data-react="true" href="https://www.gonoise.com">About Us</a></li><li id="footerId1"><a data-react="true" href="https://www.gonoise.com">Stories</a></li><li id="footerId2"><a data-react="true" href="https://www.gonoise.com">Careers</a></li><li id="footerId3"><a data-react="true" href="https://www.gonoise.com">In the Press</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="menu">
+              <h3 class="link">
+                Legal
+                  <span class="arrow down d-lg-none" class="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#togle5">&darr;</span>
+              </h3>
+              <div id="togle5" class="navbar-collapse collapse togle">
+                <ul class="submenu">
+                  <li id="footerId0" style=""><a data-react="true" href="https://www.gonoise.com">Terms & Conditions</a></li><li id="footerId1"><a data-react="true" href="https://www.gonoise.com">Privacy Policy</a></li><li id="footerId2"><a data-react="true" href="https://www.gonoise.com">Social Responsibility</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-xs-12 next">
+        <h3>Follow Us</h3>
+        <ul class=""><li><a href="https://www.facebook.com/gonoise" rel="nofollow" target="_blank"><img src="//cdn.shopify.com/s/files/1/0997/6284/files/fb_1x.png?v=1614333746" alt="Join over 650K fans" width="30" height="30"></a></li><li><a href="https://www.instagram.com/go_noise/" rel="nofollow" target="_blank"><img src="//cdn.shopify.com/s/files/1/0997/6284/files/Instagram_1x.png?v=1614333746" alt="Join over 475K fans" width="30" height="30"></a></li><li><a href="https://www.youtube.com/channel/UCF9puX2jalk1fh14ns_npMw" rel="nofollow" target="_blank"><img src="//cdn.shopify.com/s/files/1/0997/6284/files/youtube_1x.png?v=1614333746" alt="Watch our product videos" width="30" height="30"></a></li></ul>
+      </div>
+      <div class="copyright text-center d-block">
+        Copyright &copy; <span id="year">2023</span>, Noise. All Rights Reserved
+      </div>
+      </div>
+
+      <div class="bigs d-none d-lg-flex flex-column">
+        <div class="row">
+          <div class="col"> 
+            <!-- col-3 -->
+            <div class="logo-img">
+              <a href="https://gonoise.com">
+                <img src="//cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_30x.png?v=1639078444" 
+                style="margin-left:2em;margin-top:3em;" data-sizes="auto" sizes="120px"
+                width="120px;" class="undefined lazyautosizes ls-is-cached lazyloaded" alt="noise-logo" loading="lazy" data-srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_180x.png?v=1639078444 180w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_360x.png?v=1639078444 360w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_480x.png?v=1639078444 480w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_765x.png?v=1639078444 765w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_900x.png?v=1639078444 900w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_1000x.png?v=1639078444 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_1200x.png?v=1639078444 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_1500x.png?v=1639078444 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_1900x.png?v=1639078444 1900w," srcset=" //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_180x.png?v=1639078444 180w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_360x.png?v=1639078444 360w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_480x.png?v=1639078444 480w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_765x.png?v=1639078444 765w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_900x.png?v=1639078444 900w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_1000x.png?v=1639078444 1000w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_1200x.png?v=1639078444 1200w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_1500x.png?v=1639078444 1500w, //cdn.shopify.com/s/files/1/0997/6284/files/Layer_2_d16a613a-e75b-4de0-a476-aa0d107a7ef8_1900x.png?v=1639078444 1900w,">
+              </a>
+            </div>
+            <div class="col-sm-12 col-xs-12 next">
+              <h3>Follow Us</h3>
+              <ul class=""><li><a href="https://www.facebook.com/gonoise" rel="nofollow" target="_blank"><img src="//cdn.shopify.com/s/files/1/0997/6284/files/fb_1x.png?v=1614333746" alt="Join over 650K fans" width="30" height="30"></a></li><li><a href="https://www.instagram.com/go_noise/" rel="nofollow" target="_blank"><img src="//cdn.shopify.com/s/files/1/0997/6284/files/Instagram_1x.png?v=1614333746" alt="Join over 475K fans" width="30" height="30"></a></li><li><a href="https://www.youtube.com/channel/UCF9puX2jalk1fh14ns_npMw" rel="nofollow" target="_blank"><img src="//cdn.shopify.com/s/files/1/0997/6284/files/youtube_1x.png?v=1614333746" alt="Watch our product videos" width="30" height="30"></a></li></ul>
+            </div>
+          </div>
+          <div class="col special">
+            <div class="row">
+            <div class="col">
+              <div class="our">
+              <h4>Our Products</h4>
+              <ul>
+                <li><a href="https://www.gonoise.com">Smart Watches</a></li>
+                <li><a href="https://www.gonoise.com">Wireless Earphones</a></li>
+                <li><a href="https://www.gonoise.com">Wireless Earbuds</a></li>
+                <li><a href="https://www.gonoise.com">NoiseFit App</a></li>
+                <li><a href="https://www.gonoise.com">Noise Gift Card</a></li>
+              </ul>
+              </div>
+              <div class="business">
+                <h4 style="margin-top:4em;">For Business</h4>
+                <ul>
+                  <li><a href="https://www.gonoise.com">Corporate Enquiries</a></li>
+                  <li><a href="https://www.gonoise.com">Become an Affiliate</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div class="support">
+                <h4>Support</h4>
+                <ul>
+                  <li><a href="https://www.gonoise.com">FAQ</a></li>
+                  <li><a href="https://www.gonoise.com">Download Your Invoice</a></li>
+                  <li><a href="https://www.gonoise.com">Track Your Order</a></li>
+                  <li><a href="https://www.gonoise.com">Shipping and Returns</a></li>
+                  <li><a href="https://www.gonoise.com">Register Your Warranty</a></li>
+                  <li><a href="https://www.gonoise.com">Product Support</a></li>
+                  <li><a href="https://www.gonoise.com">Register a Complaint</a></li>
+                  <li><a href="https://www.gonoise.com">Contact Us</a></li>
+                </ul>
+                </div>
+            </div>
+            <div class="col">
+              <div class="about">
+                <h4>About Noise</h4>
+                <ul>
+                  <li><a href="https://www.gonoise.com">About Us</a></li>
+                  <li><a href="https://www.gonoise.com">Stories</a></li>
+                  <li><a href="https://www.gonoise.com">Careers</a></li>
+                  <li><a href="https://www.gonoise.com">In the Press</a></li>
+                </ul>
+              </div>
+              <div class="legal">
+                <h4 style="margin-top:3em;">Legal</h4>
+                <ul>
+                  <li><a href="https://www.gonoise.com">Terms & Conditions</a></li>
+                  <li><a href="https://www.gonoise.com">Privacy Policy</a></li>
+                  <li><a href="https://www.gonoise.com">Social Responsibility</a></li>
+                </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright p-3 text-center d-block" style="font-weight:bold;font-size:.9em;">
+        Copyright &copy; <span id="year">2023</span>, Noise. All Rights Reserved
+      </div>   
+    </div>
+    <!-- </div> -->
+    
+
+
+    <!-- End Of Footer Section -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+    </script>
+    <script src="css/js/main.js"></script>
+  </body>
+</html>
