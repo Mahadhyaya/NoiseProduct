@@ -27,6 +27,15 @@
 
 
   <body id="bd" style="overflow-x:hidden;">
+    <div id="par" style="" class="d-none">
+    <div id="dialogue" >
+      <div id="msg" style="color: white;">Added Successfully
+        <div>
+          <button id="ok">OK</button>
+        </div>
+      </div>
+    </div>
+    </div>
     <!-- Nav Section -->
     <nav class="container-fluid bg-dark fixed-top">
       <div class="navparent p-2">
@@ -40,16 +49,47 @@
             ><img itemprop="logo" src="//cdn.shopify.com/s/files/1/0997/6284/files/Frame_5cedad94-02ea-41c0-8358-07c2b789f67e.png?v=1634232985" alt="Noise"></a>
         </div>
         <div class="itemm d-none d-lg-block" id="ite" style="width:100vw;">
+          <div class="temp bg-dark" style="width:100%;"></div>
+          <!-- height:.8em; -->
           <ul class="nav-list"  
            id="collapseExample">
-            <li class="lis ist d-none d-lg-block"><a class="nav-link" href="https://www.gonoise.com" id="PRO">Products<span class="d-lg-none" style="color:black;display:inline;float:right;" data-bs-toggle="collapse" data-bs-target="#containing">&darr;</span></a></li>
+            <li class="lis ist d-none d-lg-block"><a class="nav-link" href="https://www.gonoise.com" id="PRO">Products<span class="d-lg-none" style="color:black;display:inline;float:right;" data-bs-toggle="collapse" data-bs-target="#containing">&darr;</span></a>
+            
+              <div class="contains so hoverMenus" id="containse">
+                <div class="row text-center">
+                  <div class="images text-center">
+                    <div class="smart" style="background-color: #f5f5f5;">
+                      <h3 style="font-weight: bold;font-size:10px;padding-top:1em;">SMART WATCHES</h3>
+                    <a href="https://www.gono"><img src="//cdn.shopify.com/s/files/1/0997/6284/files/nav-noise-colorfit-icon-2-smartwatch.png?v=6667627680202579085" alt="Icon 2" width="30" height="30"></a>
+                    <p>Icon 2</p>
+                    
+                    <a href="https://www.gonoise.com"><img src="//cdn.shopify.com/s/files/1/0997/6284/files/nav-noisefit-evolve-3-smartwatch.png?v=12866989403848333376" alt="Evolve 3" width="30" height="30"></a>
+                    <p>Evolve 3</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row text-center">
+                  <div class="images text-center">
+                    <div class="smart" style="background-color: #0086ff1a;">
+                    <h3 style="font-weight: bold;font-size:10px;padding-top:1em;">WIRELESS EARBUDS</h3>
+                    <a href="https://www.gono"><img src="//cdn.shopify.com/s/files/1/0997/6284/files/nav-noise-buds-vs202-truly-wireless-bt-earbuds.png?v=10307571259095238178" alt="VS202" width="30" height="30"></a>
+                    <p>VS202</p>
+                    
+                    <a href="https://www.gonoise.com"><img src="//cdn.shopify.com/s/files/1/0997/6284/files/nav-noise-buds-vs202-truly-wireless-bt-earbuds.png?v=10307571259095238178" width="30" height="30" alt="VS202"></a>
+                    <p>VS104</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            </li>
             <li class="lis d-lg-none"><a class="nav-link" data-bs-toggle="collapse" href="#containing">Products<span class="d-lg-none" style="color:black;display:inline;float:right;" data-bs-toggle="collapse" data-bs-target="#containing">&darr;</span></a>
             <div class="contains collapse" id="containing">
               <div class="row text-center">
                 <div class="images text-center">
                   <div class="smart" style="background-color: #f5f5f5;">
                     <h3 style="font-weight: bold;font-size:10px;padding-top:1em;">SMART WATCHES</h3>
-                  <a href="https://www.gono"><img src="//cdn.shopify.com/s/files/1/0997/6284/files/nav-noise-colorfit-icon-2-smartwatch.png?v=6667627680202579085" alt="Icon 2" width="30" height="30"></a>
+                    <a href="https://www.gono"><img src="//cdn.shopify.com/s/files/1/0997/6284/files/nav-noise-colorfit-icon-2-smartwatch.png?v=6667627680202579085" alt="Icon 2" width="30" height="30"></a>
                   <p>Icon 2</p>
                   
                   <a href="https://www.gonoise.com"><img src="//cdn.shopify.com/s/files/1/0997/6284/files/nav-noisefit-evolve-3-smartwatch.png?v=12866989403848333376" alt="Evolve 3" width="30" height="30"></a>
@@ -72,8 +112,26 @@
             </div>
           </li>
 
-          <li class="lis d-none d-lg-block"><a class="nav-link labs" href="https://www.gonoise.com" id="lab">Noise Labs<span class="d-lg-none" style="color:black;display:inline;float:right;" data-bs-toggle="collapse"data-bs-target="#littelInfo">&darr;</span></a>
-            </li>
+          <li class="lis d-none d-lg-block" id="nois"><a class="nav-link labs" href="https://www.gonoise.com" id="lab">Noise Labs<span class="d-lg-none" style="color:black;display:inline;float:right;" data-bs-toggle="collapse"data-bs-target="#littelInfo">&darr;</span></a>
+
+            <div class="text-center  pro  hoverMenus" id="littelIn">
+              <div class="temp bg-dark" style="height:.8em;width:100%;"></div>
+              <ul class="text-center d-inline">
+                <li>
+                  <a href="https://www.gonoise.com">
+                  <img src="assets/headphone.webp" alt="" height="40" width="40"></a>
+                  <p style="color:black">Intellibuds</p>
+                </li>
+                <li>
+                  <a href="https://www.gonoise.com">
+                  <img src="assets/specs.avif" alt="" height="40" width="40">
+                  </a>
+                  <p style="color:black">Smart Eye Wear</p>
+                </li>
+              </ul>
+            </div>
+
+          </li>
             <li class="lis d-lg-none"><a class="nav-link" style="cursor:pointer;" data-bs-toggle="collapse"data-bs-target="#littelInfo">Noise Labs
             <span class="d-lg-none" style="color:black;display:inline;float:right;" data-bs-toggle="collapse"data-bs-target="#littelInfo">&darr;</span></a>
               <div class="collapse text-center" id="littelInfo">
@@ -134,7 +192,7 @@
 
     <!-- Start Of Additional Section -->
 
-    <div class="contains d-none" id="containse">
+    <!-- <div class="contains so d-none hoverMenus" id="containse">
       <div class="row text-center">
         <div class="images text-center">
           <div class="smart" style="background-color: #f5f5f5;">
@@ -159,13 +217,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
-    <div class="text-center pro d-none" id="littelIn">
-      <!-- <div class="link text-center">
-        <a href="https://www.gonoise.com" style="text-decoration:none;color:black;">PRODUCTS</a>
-      </div> -->
+    <!-- <div class="text-center  pro d-none hoverMenus" id="littelIn">
       <ul class="text-center d-inline">
         <li>
           <a href="https://www.gonoise.com">
@@ -179,7 +234,7 @@
           <p style="color:black">Smart Eye Wear</p>
         </li>
       </ul>
-    </div>
+    </div> -->
 
     <div class="profile-related d-none" id="prof-related">
       <div class="close-button-wrapper"><span class="close m-3" id="closes" style="cursor:pointer;float:right;"><img src="//cdn.shopify.com/s/files/1/0997/6284/t/1522/assets/close-icon-react.svg?v=31639256006369198951673360284" alt="close notify"></span></div>
@@ -191,6 +246,8 @@
         <div class="login-button-wrapper text-center"
         style=""><hr style="margin-top:40em;"><button class="buttons login-btn" style="border-radius:12px;margin-left:2em;background: rgb(102, 98, 98);color:white;margin-top:1px solid black;width:6em;" disabled="">log in</button><p class="sign-up-link">Not a Noisemaker yet? <a href="/account/register"><span>Sign up</span></a></p></div>
     </div>
+
+    
 
     <!-- End Of Additional Section -->
 
@@ -212,7 +269,7 @@
           <div class="filterHead d-flex m-4">
             <h4 style="font-weight: bold;font-size:2em;">Filters:</h4>
             <button style="color:blue;background: white;
-            border:none;">CLEAR ALL</button>
+            border:none;width:6em;">CLEAR ALL</button>
           </div>
           </div>
           <div class="row" style="border:1px solid black;">
@@ -420,6 +477,7 @@
               <div class="product-price d-flex"><h4 class="price" style="font-weight: bold;">₹999</h4><div class="compare-at"><span class="compare text-muted" style="padding:.7em;"><strike>₹2,499</strike></span><span class="discount-percent"style="">60% OFF</span></div></div>
               <div class="addToCart mt-5">
                 <button onclick="addToCart()">ADD TO BAG</button>
+                
               </div>
             </div>
           </div>
@@ -449,7 +507,7 @@
             <div class="row p-2 priceInfo" style="">
               <div class="product-price d-flex"><h4 class="price" style="font-weight: bold;">₹999</h4><div class="compare-at"><span class="compare text-muted" style="padding:.7em;"><strike>₹2,499</strike></span><span class="discount-percent"style="">60% OFF</span></div></div>
               <div class="addToCart mt-5">
-                <button onclick="addToCart()">ADD TO BAG</button>
+                <button onclick="show()">ADD TO BAG</button>
               </div>
             </div>
           </div>

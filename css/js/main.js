@@ -17,25 +17,54 @@ const lab = document.getElementById("lab");
 liteInfo = document.getElementById("littelIn");
 
 const contains = document.getElementById("containse");
-PRO = document.getElementById("PRO");
-// document.getElementsByClassName('pro')
+const PRO = document.getElementById("PRO");
+const pro = document.getElementsByClassName('pro');
+const so = document.getElementsByClassName('so');
 
-PRO.addEventListener("mouseover", () => {
-  console.log("Hovered");
-  contains.classList.toggle("d-none");
-  contains.classList.add("hoverMenus");
-});
+// PRO.addEventListener("mouseover", () => {
+//   console.log("Hovered");
+//   contains.classList.toggle("d-none");
+//   // contains.classList.add("hoverMenus");
+// });
 
-lab.addEventListener("mouseover", () => {
-  console.log("Hovered");
-  liteInfo.classList.toggle("d-none");
-  liteInfo.classList.add("hoverMenus");
-});
-
-// lab.addEventListener('mouseout', () => {
-//   liteInfo.classList.toggle('d-none')
-//   liteInfo.classList.remove('hoverMenus');
+// so[0].addEventListener('mouseleave', () => {
+//   contains.classList.toggle("d-none");
 // })
+
+
+var var1 = false;
+
+// lab.addEventListener("mouseover", () => {
+//   console.log("Hovered");
+//   liteInfo.classList.toggle("d-none");
+//   // liteInfo.classList.add("hoverMenus");
+//   var1 = false;
+//   console.log("value", var1);
+// });
+
+
+
+// lab.addEventListener("mouseleave", () => {
+//   var1 = true;
+//   console.log("leaved");
+//   pro[0].addEventListener('mouseover', () => {
+//     // liteInfo.classList.toggle("d-none");
+//     var1 = false;
+//     console.log("leaveds Values", var1);
+//   })
+//   pro[0].addEventListener('mouseleave', () => {
+//     if(var1) {
+//       liteInfo.classList.toggle("d-none");
+//     }
+//     liteInfo.classList.toggle("d-none");
+//     var1 = true;
+//     console.log("leaveds Values", var1);
+//   })
+ 
+  
+//   // liteInfo.classList.add("hoverMenus");
+// });
+
 
 profileMenu.addEventListener("click", () => {
   console.log("clicked");
@@ -77,3 +106,46 @@ bn.addEventListener("click", () => {
 function addToCart() {
   alert("Item Added To Cart");
 }
+
+
+
+
+
+// const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+// const appendAlert = (message, type) => {
+//   const wrapper = document.createElement('div')
+//   wrapper.innerHTML = [
+//     `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+//     `   <div>${message}</div>`,
+//     '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+//     '</div>'
+//   ].join('')
+
+//   alertPlaceholder.append(wrapper)
+// }
+
+// const alertTrigger = document.getElementById('liveAlertBtn')
+// if (alertTrigger) {
+//   alertTrigger.addEventListener('click', () => {
+//     appendAlert('Item Added', 'success')
+//   })
+// }
+
+
+const dialogue = document.getElementById('par');
+const body = document.getElementById('bd')
+const ok = document.getElementById('ok');
+
+function show() {
+  dialogue.classList.remove('d-none');
+  body.style.overflowY="hidden";
+}
+
+function hides() {
+  dialogue.classList.add('d-none');
+  body.style.overflowY="unset";
+}
+
+ok.addEventListener('click', () => {
+  hides();
+})

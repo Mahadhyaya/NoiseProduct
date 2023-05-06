@@ -72,10 +72,13 @@ nav .navparent .search-cart .search {
 
 .hoverMenus {
   display: inline;
-  position: absolute;
+  position: fixed;
   background: white;
-  top: 5%;
-  width: 100vw;
+  top: 4.5%;
+  left: 20%;
+  margin: 0 auto;
+  width: 70%;
+  z-index: 999;
 }
 .hoverMenus ul {
   display: inline;
@@ -369,4 +372,52 @@ nav .navparent .search-cart .search {
   button {
     width: 20%;
   }
+}
+#par {
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#par #dialogue {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  height: 20%;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+}
+
+#msg {
+  font-size: 20px;
+  text-align: center;
+}
+
+button {
+  text-align: center;
+  margin-top: 20px;
+  width: 20%;
+}
+
+#ok {
+  padding: 10px;
+  margin: 0 10px;
+}
+
+#nois #littelIn {
+  display: none;
+}
+#nois:hover #littelIn {
+  display: inline;
+}
+
+.ist #containse {
+  display: none;
+}
+.ist:hover #containse {
+  display: inline;
 }/*# sourceMappingURL=main.css.map */
